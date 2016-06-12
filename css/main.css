@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+.title {
+    background: rgb(255, 83, 29);
+    color: #fff;
+    padding: 8px;
+    font-size: 1em;
+    font-weight: 500;
+}
+body {
+    overflow-x: hidden;
+    background: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+}
+.center {
+    text-align: center !important;
+}
+.right {
+    float: right;
+}
+.no-padding {
+    padding: 12px 0px !important;
+}
+.no-right {
+    padding-right: 0 !important
+}
+.no-left {
+    padding-left: 0 !important
+}
+a {
+    color: #434444;
+}
+
+/*navigation*/
+
+.navbar {
+    min-height: 100px !important;
+}
+.navbar-default {
+    background-image: none;
+    background-color: #FF5722 !important;
+    border: 0 !important;
+}
+nav.main {
+    margin: 0;
+    border-radius: 0;
+}
+.navbar {
+    border: none;
+}
+.navbar-inverse {
+    background: rgb(255, 71, 13);
+}
+.navbar-brand {
+    height: auto;
+}
+.navbar-nav.navbar-right {
+    margin-top: 0;
+}
+.navbar-toggle {
+    margin-top: 30px;
+}
+.navbar-nav a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: rgba(10, 0, 0, 0);
+}
+
+/*HomePage*/
+
+.first-section .image-class {
+    padding: 0 5px;
+}
+.top-banner {
+    padding: 10px 0px;
+}
+.img-responsive {
+    width: 100% !important;
+}
+.branding-image {
+    height: 472px;
+    width: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.branding-image-type-two {
+    height: 261px;
+    width: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    ;
+}
+.cs-brand-text {
+    position: absolute;
+    bottom: 5.5%;
+    width: 100%;
+    font-size: 1.5em;
+    color: white;
+}
+.cs-brand-text-type-two {
+    /*position: absolute;
+    bottom: 10%;*/
+    width: 100%;
+    font-size: 1.5em;
+    color: #3c3838;
+}
+.hero-text {
+    margin: 0 auto;
+}
+.hero-text-big {
+    width: 95%;
+    margin: 0 auto;
+}
+.sixtyad {
+    height: 75px;
+    width: 468px;
+    padding-top: 10px;
+}
+.col-top {
+    padding-top: 11px;
+}
+.first-section {
+    background: white;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.white-container {
+    background-color: white;
+    margin-bottom: 10px;
+}
+.footer-container {
+    background-color: white;
+}
+.ad-pad-main {
+    padding-top: 30px;
+}
+footer {
+    background: rgb(255, 71, 13);
+    height: 100px;
+    color: white;
+    margin-top: 15px;
+}
+footer p {
+    margin-top: 45px;
+}

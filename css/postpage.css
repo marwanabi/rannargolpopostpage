@@ -1,0 +1,134 @@
+img {
+    max-width: 100%;
+}
+.desc-box {
+    font-size: 16px;
+    padding: 3% 0;
+}
+.ad-pad {
+    padding-top: 10px;
+}
+
+/*right-section*/
+
+.side-section {
+    background: #eee;
+}
+
+/*other post*/
+h1{
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+h2 {
+    margin-bottom: 0px !important
+}
+.other-title {
+    background: rgb(58, 53, 53);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.other-postpage{
+  max-height: 132px;
+  height: 132px;
+  border-bottom: 2px solid #dedede;
+  padding: 10px 10px !important;
+  background: white;
+}
+.other-postpage .pull-left {
+    padding-right: 10px;
+}
+.other-post {
+    /*max-height: 110px;
+    height: 143px;
+    margin: 2% 0%;*/
+    max-height: 132px;
+    height: 132px;
+    border-bottom: 2px solid #dedede;
+    padding: 10px 0;
+    background: white;
+}
+.other-post .pull-left {
+    padding-right: 10px;
+}
+.box {
+    cursor: pointer;
+    height: 110px;
+    position: relative;
+    overflow: hidden;
+    width: 165px;
+}
+.box img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*post image*/
+.post-class{
+  background: white;
+      z-index: 1;
+}
+.post-img-box {
+    height: 383px;
+    width: 100%;
+}
+.post-img-box img {
+    height: auto;
+    width: 100%;
+}
+
+/*featured post section*/
+
+.feature-post-section {
+  padding-left: 0px;
+padding-right: 0px;
+    padding-bottom: 2%;
+}
+.feature-post {
+  height: 205px;
+  /*margin: 30px 0px;*/
+}
+.feature-post:nth-child(2) {
+    background: url("https://images.unsplash.com/photo-1441123285228-1448e608f3d5?crop=entropy&fit=crop&fm=jpg&h=275&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=400");
+    background-size: cover;
+}
+.feature-post:nth-child(3) {
+    background: url("https://images.unsplash.com/photo-1428660386617-8d277e7deaf2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=456e03c5e10bf98f73f7beee0098e901");
+    background-size: cover;
+}
+.feature-post:nth-child(4) {
+    background: url("https://images.unsplash.com/photo-1445979323117-80453f573b71?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=e4a8530c4df05f923997dcdcec05a6de");
+    background-size: cover;
+}
+
+.feature-post-title {
+    position: absolute;
+    bottom: 1%;
+}
+.social-icon img{
+  width: 18%;
+  float: right;
+}
+.social-row{
+padding-left: 16px;
+}
+.social-icon{
+  padding: 20px 0px;
+}
+.post-title{
+  padding: 20px 0px;
+}
+.social-icon-below{
+    padding: 20px 0px;
+}.social-icon-below img{
+  width: 18%;
+  float: left;
+}
+.right-section{
+      background: #eee;
+}
+.post-container{
+      padding: 0px 15px;
+}
